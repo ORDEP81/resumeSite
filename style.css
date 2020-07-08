@@ -179,7 +179,9 @@ h1, h2, h3 {
 	border: 2px solid #0bb5f4;
 }
 
-#resume .experience ul li:after{
+
+
+.experience ul li:after{
 	content: "";
 	position: absolute;
 	top: 14px;
@@ -199,6 +201,9 @@ h1, h2, h3 {
 	background: #0bb5f4
 }
 
+.task{
+	padding-left: 25px;
+}
 
 #footer {
 	clear: both;
