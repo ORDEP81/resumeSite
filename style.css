@@ -168,7 +168,7 @@ h1, h2, h3 {
 	margin-bottom: 0;
 } 
 
-#resume .experience ul li:before, .education ul li:before{
+#resume .outer-li1::before{
 	content: "";
 	position: absolute;
 	top: 5px;
@@ -179,19 +179,79 @@ h1, h2, h3 {
 	border: 2px solid #0bb5f4;
 }
 
+#resume .outer-li2::before{
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: -25px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 2px solid #0bb5f4;
+}
 
+#resume .outer-li3::before{
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: -25px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 2px solid #0bb5f4;
+}
 
-.experience ul li:after{
+.outer-li1::after{
 	content: "";
 	position: absolute;
 	top: 14px;
 	left: -21px;
 	width: 2px;
-	height: 75px;
+	height: 220px;
 	background: #0bb5f4
 }
 
-#resume .education ul li:after{
+.outer-li2::after{
+	content: "";
+	position: absolute;
+	top: 14px;
+	left: -21px;
+	width: 2px;
+	height: 123px;
+	background: #0bb5f4
+}
+
+.outer-li3::after{
+	content: "";
+	position: absolute;
+	top: 14px;
+	left: -21px;
+	width: 2px;
+	height: 150px;
+	background: #0bb5f4
+}
+
+.experience .task ul li::before{
+	content: "•";
+	color: #0bb5f4;
+	font-size: 2em;
+	display: inline-block;
+	width: 10px;
+	margin-left:-1.1em;
+}
+
+.education ul li:before{
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: -25px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 2px solid #0bb5f4;
+}
+
+.cert1::after{
 	content: "";
 	position: absolute;
 	top: 14px;
@@ -201,8 +261,24 @@ h1, h2, h3 {
 	background: #0bb5f4
 }
 
-.task{
-	padding-left: 25px;
+.cert2::after{
+	content: "";
+	position: absolute;
+	top: 14px;
+	left: -21px;
+	width: 2px;
+	height: 74px;
+	background: #0bb5f4
+}
+
+.cert3::after{
+	content: "";
+	position: absolute;
+	top: 14px;
+	left: -21px;
+	width: 2px;
+	height: 200px;
+	background: #0bb5f4
 }
 
 #footer {
