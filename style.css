@@ -232,7 +232,7 @@ h1, h2, h3 {
 }
 
 .experience .task ul li::before{
-	content: "•";
+	content: "\2022";
 	color: #0bb5f4;
 	font-size: 2em;
 	display: inline-block;
