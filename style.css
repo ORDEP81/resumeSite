@@ -201,7 +201,7 @@ h1, h2, h3 {
 	border: 2px solid #0bb5f4;
 }
 
-.outer-li1::after{
+#resume .outer-li1::after{
 	content: "";
 	position: absolute;
 	top: 14px;
@@ -211,7 +211,7 @@ h1, h2, h3 {
 	background: #0bb5f4
 }
 
-.outer-li2::after{
+#resume .outer-li2::after{
 	content: "";
 	position: absolute;
 	top: 14px;
@@ -221,7 +221,7 @@ h1, h2, h3 {
 	background: #0bb5f4
 }
 
-.outer-li3::after{
+#resume .outer-li3::after{
 	content: "";
 	position: absolute;
 	top: 14px;
@@ -231,7 +231,7 @@ h1, h2, h3 {
 	background: #0bb5f4
 }
 
-.experience .task ul li::before{
+#resume .experience .task ul li::before{
 	content: "\2022";
 	color: #0bb5f4;
 	font-size: 2em;
@@ -288,3 +288,8 @@ h1, h2, h3 {
 	color: white;
 	text-align: right;
 }
+
+.visits {
+	text-align: center;
+}
+
